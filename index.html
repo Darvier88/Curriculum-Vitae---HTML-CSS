@@ -11,6 +11,7 @@
 <body>
    <header>
         <h1>Darwin Javier Pacheco Paredes</h1>
+        <img src="https://placehold.co/400" alt="Imagen de encabezado" width="400" height="400">
         <nav>
             <ul>
                 <li><a href="#perfil">Perfil</a></li>
@@ -26,7 +27,16 @@
         <section id="perfil">
             <h2>Perfil Profesional</h2>
             <p>Resumen breve sobre tu experiencia, intereses y metas profesionales.</p>
+
+            <!-- Video de YouTube insertado -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NpEaa2P7qZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Para más información sobre mi trabajo, puedes visitar las siguientes paginas:</p>
+            <ol>
+               <li><a href="https://www.linkedin.com/in/darwin-pacheco-paredes-256008230/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://darvier88.github.io/Darvier88/" target="_blank">Sitio personal de GitHub</a></li>
+            </ol>
         </section>
+
 
         <section id="experiencia">
             <h2>Experiencia Laboral</h2>
@@ -36,22 +46,146 @@
         <section id="educacion">
             <h2>Formación Académica</h2>
             <p>Información sobre tus estudios, instituciones y títulos obtenidos.</p>
+            <h3>Mi educación</h3>
+            <table style="width: 100%; border-collapse: collapse;">
+                <tr>
+                    <th style="border: none; text-align: left;">Año</th>
+                    <th style="border: none; text-align: left;">Institución</th>
+                    <th style="border: none; text-align: left;">Grado</th>
+                </tr>
+                <tr>
+                    <td style="border: none;">2020-2024</td>
+                    <td style="border: none;">Escuela Superior Politécnica del Litoral (ESPOL)</td>
+                    <td style="border: none;">Licenciatura en Ciencias de la Computación</td>
+                </tr>
+                <tr>
+                    <td style="border: none;">2018-2020</td>
+                    <td style="border: none;">Cooding Bootcamps ESPOL</td>
+                    <td style="border: none;">Diplomado en Desarrollo Web</td>
+                </tr>
+                <tr>
+                    <td style="border: none;">2016-2018</td>
+                    <td style="border: none;">BGLAB</td>
+                    <td style="border: none;">Certificación en Programación Backend</td>
+                </tr>
+            </table>
         </section>
 
         <section id="habilidades">
             <h2>Habilidades</h2>
             <p>Conocimientos técnicos, idiomas, herramientas o competencias personales.</p>
         </section>
+        <section id="referencias">
+            <h2>Referencias</h2>
+            <p>A continuación se presentan algunos testimonios de personas con las que he trabajado:</p>
 
+            <!-- Testimonio 1 -->
+            <div class="testimonio">
+                <p><strong>Carmen Vaca</strong></p>
+                <blockquote>
+                    "Darwin tiene una habilidad excepcional para resolver problemas y siempre aporta soluciones innovadoras."
+                </blockquote>
+                <p><em>Directora de Proyectos, Tech Innovators</em></p>
+                <p>Trabajé con Darwin en varios proyectos de desarrollo de software. Su capacidad para enfrentar desafíos complejos y encontrar soluciones eficientes es admirable. Siempre se muestra proactivo y orientado a resultados.</p>
+            </div>
+
+            <!-- Testimonio 2 -->
+            <div class="testimonio">
+                <p><strong>Anthony Villacis</strong></p>
+                <blockquote>
+                    "Un profesional increíble, su trabajo es impecable y siempre entrega a tiempo."
+                </blockquote>
+                <p><em>Gerente de Tecnología, GlobalTech</em></p>
+                <p>Colaboré con Darwin en la implementación de diversas aplicaciones. Su capacidad para entender las necesidades del cliente y traducirlas en código funcional fue clave para el éxito de nuestros proyectos. Es un gran equipo para cualquier desafío técnico.</p>
+            </div>
+
+            <!-- Testimonio 3 -->
+            <div class="testimonio">
+                <p><strong>Genesis Carrillo</strong></p>
+                <blockquote>
+                    "Darwin es un excelente colaborador. Su pasión por el desarrollo y su enfoque en la mejora continua lo hacen destacar."
+                </blockquote>
+                <p><em>Jefa de Desarrollo, Digital Solutions</em></p>
+                <p>Trabajé con Darwin en varias iniciativas de software. Es un profesional muy comprometido, siempre dispuesto a aprender y a ofrecer soluciones innovadoras. Su atención al detalle y su dedicación al trabajo son notables.</p>
+            </div>
+        </section>
         <section id="contacto">
             <h2>Información de Contacto</h2>
             <p>Correo electrónico, teléfono, redes sociales o dirección.</p>
+            <div>
+            <h3>Ubicación - ESPOL</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.3713597155037!2d-79.96718477086626!3d-2.147961361078282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13eeec60e4cb%3A0x50fe9de80fce7b62!2sEscuela%20Superior%20Politécnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses!2sec!4v1716131594654!5m2!1ses!2sec" 
+                    width="100%" 
+                    height="300" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+           <form action="#" method="POST" style="margin-top: 30px;">
+                <!-- Nombre -->
+                <div style="margin-bottom: 15px;">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required style="width: 100%; padding: 8px;">
+                </div>
+
+                <!-- Correo Electrónico -->
+                <div style="margin-bottom: 15px;">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" required style="width: 100%; padding: 8px;">
+                </div>
+
+                <!-- Teléfono -->
+                <div style="margin-bottom: 15px;">
+                    <label for="telefono">Número de Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required style="width: 100%; padding: 8px;">
+                </div>
+
+                <!-- Selección de Asunto -->
+                <div style="margin-bottom: 15px;">
+                    <label for="asunto">Asunto:</label>
+                    <select id="asunto" name="asunto" required style="width: 100%; padding: 8px;">
+                        <option value="">Selecciona un asunto...</option>
+                        <option value="consulta">Consulta</option>
+                        <option value="soporte">Soporte Técnico</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                </div>
+
+                <!-- Preferencias -->
+                <div style="margin-bottom: 15px;">
+                    <label>¿Cómo prefieres ser contactado?</label>
+                    <div style="display: flex; gap: 10px;">
+                    </div>
+                </div>
+
+                <!-- Comentarios -->
+                <div style="margin-bottom: 15px;">
+                    <label for="comentarios">Comentarios:</label>
+                    <textarea id="comentarios" name="comentarios" rows="4" required style="width: 100%; padding: 8px;"></textarea>
+                </div>
+
+                <!-- Botón Enviar -->
+                <div>
+                    <button type="submit" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">Enviar</button>
+                </div>
+            </form>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2025 Darwin Pacheco. Todos los derechos reservados.</p>
     </footer>
-
+            <div>
+                            <input type="radio" id="contacto-email" name="contacto" value="email" required>
+                            <label for="contacto-email">Correo Electrónico</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="contacto-telefono" name="contacto" value="telefono" required>
+                            <label for="contacto-telefono">Teléfono</label>
+                        </div>
+            
 </body>
 </html>
